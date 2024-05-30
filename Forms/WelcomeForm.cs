@@ -49,9 +49,9 @@ namespace Assignment4._2._1
                         Program.studentList[j] = temp;
                     }
                 }
-             }
+            }
 
-                using (StreamWriter sw = new StreamWriter("C:\\MSSA-CCAD14\\Highest GPA.txt"))
+            using (StreamWriter sw = new StreamWriter("C:\\MSSA-CCAD14\\Highest GPA.txt"))
             {
                 foreach (Student student in Program.studentList)
                 {

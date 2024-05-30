@@ -5,7 +5,7 @@ namespace Assignment4._2._1
 {
     public partial class LogOnScreen : Form
     {
-        bool isLoggedOn = false;
+        //bool isLoggedOn = false;
         string userName = "Teacher";
         string password = "Admin";
 
@@ -18,9 +18,9 @@ namespace Assignment4._2._1
         {
             if (TeacherUserNameTextBox.Text == userName && TeacherPasswordTextBox.Text == password)
             {
-                isLoggedOn = true;
-                AddNewStudent addNewStudentForm = new AddNewStudent();
-                addNewStudentForm.ShowDialog();
+                //isLoggedOn = true;
+                StudentDisplayForm studentDisplayForm = new StudentDisplayForm();
+                studentDisplayForm.ShowDialog();
             }
             else
             {
